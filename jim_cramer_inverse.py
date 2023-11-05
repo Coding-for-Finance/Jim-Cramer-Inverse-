@@ -48,7 +48,6 @@ import bs4 as bs
 from datetime import datetime
 import yaml
 
-sys.path.insert(0, '/Users/danielkotas/Documents/Documents – Daniel’s MacBook Air/Important /Extra Learning/modules')
 from portfolio_analytics_v2 import PortfolioAnalysis
 
 
