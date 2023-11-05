@@ -1,0 +1,33 @@
+# Setting parameters for Jim Cramer Inverse
+
+
+start_date : '2018-01-01' # input start date as a string in the YYYY-mm-dd format
+
+## General
+load_twitter : False
+load_yahoo : False
+
+## Sentiment classification
+sent_params : {nltk : True,
+               stanza : False,
+               textblob : True, textblob_subjectivity : False,
+               method : 'avg'}
+
+## Trading Strategy
+weighting : direction # direction # magnitude
+sent_min: 0.0
+take_profit: True
+take_profit_pct: 0.3 # enter as decimal, not %-age
+holding_period : 40
+allow_cumulating : False # if a stock is already held and mentioned again, should the position be added again?
+allow_overwrite: False
+trading_lag : 1
+caps: {long_cap : 2,
+       short_cap : -1}
+
+
+
+
+
+
+
