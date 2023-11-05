@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Apr 30 10:57:58 2022
-
 @author: danielkotas
-
 
 This script downloads Tweets of Jim Cramer, a finance TV-personality famous for being consistently wrong
 in his stock recommendations.
